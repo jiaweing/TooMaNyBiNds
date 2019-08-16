@@ -1,0 +1,70 @@
+// TooMaNyBiNds Final
+// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8471
+// Made By: myst
+
+// =====================================================================
+// Binds
+// Only edit this section!
+//
+// The keypad keys after the say command in each alias indicates which key the alias is binded to.
+// =====================================================================
+
+alias KP0 "say Keypad 0"
+alias KP1 "say Keypad 1"
+alias KP2 "say Keypad 2"
+alias KP3 "say Keypad 3"
+alias KP4 "say Keypad 4"
+alias KP5 "say Keypad 5"
+alias KP6 "say Keypad 6"
+alias KP7 "say Keypad 7"
+alias KP8 "say Keypad 8"
+alias KP9 "say Keypad 9"
+alias KP10 "say Keypad Slash"
+alias KP11 "say Keypad Asterisk"
+alias KP12 "say Keypad Minus"
+alias KP13 "say Keypad Plus"
+alias KP14 "say Keypad Enter"
+alias KP15 "say Keypad Delete"
+alias KP16 "say TooMaNyBiNds Keypad 0"
+alias KP17 "say TooMaNyBiNds Keypad 1"
+alias KP18 "say TooMaNyBiNds Keypad 2"
+alias KP19 "say TooMaNyBiNds Keypad 3"
+alias KP20 "say TooMaNyBiNds Keypad 4"
+alias KP21 "say TooMaNyBiNds Keypad 5"
+alias KP22 "say TooMaNyBiNds Keypad 6"
+alias KP23 "say TooMaNyBiNds Keypad 7"
+alias KP24 "say TooMaNyBiNds Keypad 8"
+alias KP25 "say TooMaNyBiNds Keypad 9"
+alias KP26 "say TooMaNyBiNds Keypad Slash"
+alias KP27 "say TooMaNyBiNds Keypad Asterisk"
+alias KP28 "say TooMaNyBiNds Keypad Minus"
+alias KP29 "say TooMaNyBiNds Keypad Plus"
+alias KP30 "say TooMaNyBiNds Keypad Enter"
+alias KP31 "say TooMaNyBiNds Keypad Delete"
+bind "KEY" ToggleTooMaNyBiNds // replace "KEY" to a key you wish to toggle TooMaNyBiNds
+
+// =====================================================================
+// DO NOT TOUCH THIS SECTION!
+// =====================================================================
+bind "KP_INS" KP0
+bind "KP_END" KP1
+bind "KP_DOWNARROW" KP2
+bind "KP_PGDN" KP3
+bind "KP_LEFTARROW" KP4
+bind "KP_5" KP5
+bind "KP_RIGHTARROW" KP6
+bind "KP_HOME" KP7
+bind "KP_UPARROW" KP8
+bind "KP_PGUP" KP9;
+bind "KP_SLASH" KP10
+bind "KP_MULTIPLY" KP11
+bind "KP_MINUS" KP12
+bind "KP_PLUS" KP13
+bind "KP_ENTER" KP14
+bind "KP_DEL" KP15
+
+alias ToggleTooMaNyBiNds TooMaNyBiNdsON
+alias TooMaNyBiNdsON "bind KP_INS KP16; bind KP_END KP17; bind KP_DOWNARROW KP18; bind KP_PGDN KP19; bind KP_LEFTARROW KP20; bind KP_5 KP21; bind KP_RIGHTARROW KP22; bind KP_HOME KP23; bind KP_UPARROW KP24; bind KP_PGUP KP25; bind KP_SLASH KP26; bind KP_MULTIPLY KP27; bind KP_MINUS KP28; bind KP_PLUS KP29; bind KP_ENTER KP30; bind KP_DEL KP31; echo TooMaNyBiNds is now Turned On; alias ToggleTooMaNyBiNds TooMaNyBiNdsOFF"
+alias TooMaNyBiNdsOFF "bind KP_INS KP0; bind KP_END KP1; bind KP_DOWNARROW KP2; bind KP_PGDN KP3; bind KP_LEFTARROW KP4; bind KP_5 KP5; bind KP_RIGHTARROW KP6; bind KP_HOME KP7; bind KP_UPARROW KP8; bind KP_PGUP KP9; bind KP_SLASH KP10; bind KP_MULTIPLY KP11; bind KP_MINUS KP12; bind KP_PLUS KP13; bind KP_ENTER KP14; bind KP_DEL KP15; echo TooMaNyBiNds is now Turned Off; alias ToggleTooMaNyBiNds TooMaNyBiNdsON"
+
+echo TooMaNyBiNds Final has successfully loaded!
