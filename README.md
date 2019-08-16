@@ -1,3 +1,8 @@
+### What is TooMaNyBiNds?
+This Team Fortress 2 game script allows you to toggle a whole new set of keyboard binds with a press of a button. This means that each key now can have 2 different binds. Unfortunately this script only supports the keypad, every single key on the keypad except the Num Lock key.
+
+There are two different sets of binds; the main binds (binds with the alternate binds off) and the alternate set of binds.
+
 ### Installation
 If you do not have a file called autoexec.cfg, make a new file called autoexec.cfg and place it into your TF2 directory. See below for information on how to do this.
 
